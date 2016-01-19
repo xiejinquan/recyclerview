@@ -25,10 +25,10 @@
 
 ##用法示例
 
-
+在oncreate调用initRecyclerview();
 
 ```java
- private JesseAdapter<Data> mAdapter;
+    private JesseAdapter<Data> mAdapter;
 
     /**
      * 设置Recyclerview
@@ -38,7 +38,9 @@
         mAdapter=new JesseAdapter<Data>(this,R.layout.item_data,mDatas) {
             @Override
             public void onBindView(JesseHolder holder, int position) {
+            	//根据id获取view
                 TextView tv_name=holder.getView(R.id.tv_name);
+                //对view设值
                 tv_name.setText(mDatas.get(position).getName());
                 TextView tv_title=holder.getView(R.id.tv_title);
                 tv_title.setText(mDatas.get(position).getTitle());
