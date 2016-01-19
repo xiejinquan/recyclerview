@@ -25,11 +25,10 @@
 
 ##用法示例
 
-在oncreate调用initRecyclerview();
+在Activity类的oncreate()方法里面调用initRecyclerview();
 
 ```java
     private JesseAdapter<Data> mAdapter;
-
     /**
      * 设置Recyclerview
      */
