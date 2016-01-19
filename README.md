@@ -6,7 +6,7 @@
 
 * Android Studio
 
-	使用前，对于Android Studio的用户，可以选择添加:
+	使用前，对于Android Studio的用户，在module的build.gradle可以选择添加:
 
 	```
 	compile project(':recyclerview')
