@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
     private JesseAdapter<Data> mAdapter;
 
     /**
-     * 设置Recyclerview
-     */
+         * 设置Recyclerview
+         */
     private void initRecyclerview() {
         mRecyclerview.setLayoutManager(new LinearLayoutManager(this));
         mAdapter=new JesseAdapter<Data>(this,R.layout.item_data,mDatas) {
