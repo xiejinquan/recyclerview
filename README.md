@@ -9,13 +9,25 @@
 	使用前，对于Android Studio的用户，在module的build.gradle可以选择添加:
 
 	```
-	compile project(':recyclerview')
+	dependencies {
+    	  compile fileTree(dir: 'libs', include: ['*.jar'])
+    	  testCompile 'junit:junit:4.12'
+    	  compile 'com.android.support:appcompat-v7:23.1.1'
+    	  
+    	  compile project(':recyclerview')//添加compile project(':recyclerview')
+	}
 	```
 	
 	或者
 	
 	```
-	compile 'com.jesse.recyclerview:recyclerview:23.1.1'
+	dependencies {
+    	  compile fileTree(dir: 'libs', include: ['*.jar'])
+    	  testCompile 'junit:junit:4.12'
+    	  compile 'com.android.support:appcompat-v7:23.1.1'
+    	  
+    	  compile 'com.jesse.recyclerview:recyclerview:23.1.1'//添加compile 'com.jesse.recyclerview:recyclerview:23.1.1'
+	}
 	```
 	
 * Eclipse
