@@ -3,8 +3,8 @@
 
 
 ## 注意
-这个包已经包含compile 'com.android.support:recyclerview-v7:23.1.1'
-使用时候不用引入compile 'com.android.support:recyclerview-v7:23.1.1'
+* 这个包已经包含compile 'com.android.support:recyclerview-v7:23.1.1'
+* 使用时候不用引入compile 'com.android.support:recyclerview-v7:23.1.1'
 
 
 ## 用法
