@@ -19,7 +19,7 @@
     	  testCompile 'junit:junit:4.12'
     	  compile 'com.android.support:appcompat-v7:23.1.1'
     	  
-    	  compile 'com.jesse.recyclerview:recyclerview:23.1.1'//添加compile 'com.jesse.recyclerview:recyclerview:23.1.1'
+    	  compile 'com.jesse.recyclerview:recyclerview:23.1.1'//引入recyclerview包
 	}
 	```
 	
