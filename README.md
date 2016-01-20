@@ -1,5 +1,5 @@
 # recyclerview
-这是一个recyclerview的Adapter帮助类
+这是一个recyclerview的Adapter万能适配类，帮助开发者减少写Adapter类
 
 
 ## 注意
