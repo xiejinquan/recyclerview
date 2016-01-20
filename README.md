@@ -11,19 +11,7 @@
 
 * Android Studio
 
-	使用前，对于Android Studio的用户，在module的build.gradle可以选择添加:
-
-	```
-	dependencies {
-    	  compile fileTree(dir: 'libs', include: ['*.jar'])
-    	  testCompile 'junit:junit:4.12'
-    	  compile 'com.android.support:appcompat-v7:23.1.1'
-    	  
-    	  compile project(':recyclerview')//添加compile project(':recyclerview')
-	}
-	```
-	
-	或者
+	使用前，对于Android Studio的用户，在module的build.gradle添加:
 	
 	```
 	dependencies {
@@ -63,5 +51,15 @@
             }
         };
         mRecyclerview.setAdapter(mAdapter);
+        
+        /**
+         * item的单击事件
+         */
+        mAdapter.setOnItemClickListener(new JesseAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                Toast.makeText(MainActivity.this, "toast" + position, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 ```
