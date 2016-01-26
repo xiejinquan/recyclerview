@@ -1,7 +1,7 @@
 # recyclerview
-这是一个recyclerview的Adapter万能适配类，帮助开发者减少写Adapter类
+这是一个recyclerview的Adapter万能适配包，帮助开发者减少写Adapter类
 
-### 博客地址：http://blog.csdn.net/xiejinquan_/article/details/50547642
+### [我的博客](http://blog.csdn.net/xiejinquan_/article/details/50547642)
 
 
 ## 注意
